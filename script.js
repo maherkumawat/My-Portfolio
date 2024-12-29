@@ -1,3 +1,9 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.right-page-slideDown '),
+    smooth: true
+});
+
+
 var certificateBox = document.getElementById("certificateBox");
           certificateBox.addEventListener("click", function() {
            window.location.href = "Certificate.html";
